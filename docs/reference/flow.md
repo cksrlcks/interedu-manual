@@ -102,7 +102,7 @@
     <text x="261.0" y="687" text-anchor="middle" font-size="9" fill="var(--flow-sub)">반별로 입력</text>
     <line x1="359.0" y1="674" x2="375.0" y2="674" stroke="var(--flow-line)" stroke-width="1.8" marker-end="url(#fa)"/>
     <rect x="378.0" y="652.0" width="190" height="44" rx="8" fill="var(--flow-tutor-bg)" stroke="var(--flow-tutor-line)" stroke-width="1.3"/>
-    <text x="473.0" y="671" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-tutor-text)">활동보고서 생성</text>
+    <text x="473.0" y="671" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-tutor-text)">결과보고서 생성</text>
     <text x="473.0" y="687" text-anchor="middle" font-size="9" fill="var(--flow-sub)">자동 생성 후 저장</text>
     <circle cx="82" cy="752" r="4" fill="var(--flow-line)"/>
     <text x="62" y="756" text-anchor="end" font-size="11" font-weight="700" fill="var(--flow-label)">마무리</text>
@@ -167,7 +167,7 @@
 | --- | --- |
 | 반별 참여인원 입력 | [강의 후 정리](/tutor/after-class) |
 | 활동 사진 업로드 | [강의 후 정리](/tutor/after-class) |
-| 활동보고서 생성 | [강의 후 정리](/tutor/after-class) |
+| 결과보고서 생성 | [강의 후 정리](/tutor/after-class) |
 | 저장 | [강의 후 정리](/tutor/after-class) |
 
 이 시점의 강의 상태는 **강의종료** 입니다.
@@ -176,7 +176,7 @@
 
 | 담당 | 하는 일 | 설명서 |
 | --- | --- | --- |
-| 선생님 | 수업 사진과 활동보고서 확인 | [마이페이지에서 관리하기](/teacher/mypage#results) |
+| 선생님 | 수업 사진과 결과보고서 확인 | [마이페이지에서 관리하기](/teacher/mypage#results) |
 | 선생님 | 거래명세서 내려받기 | [마이페이지에서 관리하기](/teacher/mypage#documents) |
 | 관리자 | 결과물 등록 여부 확인 | [강의 관리](/admin/lectures#after-class) |
 
@@ -189,4 +189,4 @@
 | 선생님 화면의 **강의 정보** 탭이 비어 있습니다 | 진행 상태가 아직 **접수 중** 입니다 | 관리자가 확정 처리를 진행합니다 |
 | 견적서가 보이지 않습니다 | 아직 생성되지 않았습니다 | 관리자가 **견적서 생성**을 실행합니다 |
 | 강사카드 다운로드 버튼이 없습니다 | 아직 생성되지 않았습니다 | 강사가 **강사카드 생성**을 누른 뒤 화면을 새로고침합니다 |
-| 활동보고서가 생성되지 않습니다 | 참여인원 또는 활동 사진이 비어 있습니다 | 두 항목을 모두 입력한 뒤 다시 시도합니다 |
+| 결과보고서가 생성되지 않습니다 | 참여인원 또는 활동 사진이 비어 있습니다 | 두 항목을 모두 입력한 뒤 다시 시도합니다 |

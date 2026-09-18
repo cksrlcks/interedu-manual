@@ -22,9 +22,7 @@
 **진행 상태**는 처리가 어디까지 진행되었는지를 나타냅니다.
 :::
 
-::: info 이미지 자리 · `admin/admin-07-applies.png`
-수강 신청 관리 목록 화면
-:::
+![수강 신청 관리 목록 화면](/images/admin/admin-07-applies.png)
 
 ## 신청 상세 화면
 
@@ -36,9 +34,7 @@
 4. **1:1 대화** — 신청자와의 메시지
 5. 오른쪽 **진행 단계**와 **접수** 영역
 
-::: info 이미지 자리 · `admin/admin-08-apply-detail.png`
-신청 상세 화면 전체
-:::
+![신청 상세 화면](/images/admin/admin-08-apply-detail.png)
 
 ## 일정 확정 및 견적서 생성
 
@@ -83,9 +79,7 @@
 배정된 강사 모두에게 같은 강의가 표시되며, 선생님 화면에도 모두 표시됩니다.
 :::
 
-::: info 이미지 자리 · `admin/admin-09-assign-tutor.png`
-강사 배정 영역과 강사 선택 창
-:::
+![강사 배정 영역과 강사 선택 창](/images/admin/admin-09-assign-tutor.png)
 
 ### 3. 견적서
 
@@ -107,9 +101,7 @@
 
 생성된 견적서는 **미리보기**로 실제 모양을 확인할 수 있으며, **삭제**로 제거할 수 있습니다. 삭제 시 확인 창이 표시됩니다.
 
-::: info 이미지 자리 · `admin/admin-10-estimate.png`
-견적서 작성 창 (품목 표가 보이도록 촬영)
-:::
+![견적서 작성 창](/images/admin/admin-10-estimate.png)
 
 ## 신청 확정 {#confirm}
 

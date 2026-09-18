@@ -5,9 +5,7 @@
 
 이곳에 등록한 내용은 **신청한 선생님의 마이페이지에도 그대로 표시됩니다.**
 
-::: info 이미지 자리 · `tutor/tutor-10-activity-input.png`
-활동 내역 입력 영역 (참여인원 · 활동 사진 · 결과보고서가 한 화면에 보이도록 촬영)
-:::
+![활동 내역 입력 영역](/images/tutor/tutor-10-activity-input.png)
 
 ## 반별로 입력합니다
 

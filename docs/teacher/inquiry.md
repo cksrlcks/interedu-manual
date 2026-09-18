@@ -24,9 +24,7 @@
 
 프로그램 상세 화면의 **문의하기** 버튼을 눌러도 같은 화면으로 이동합니다.
 
-::: info 이미지 자리 · `teacher/teacher-14-inquiry-write.png`
-문의 작성 화면 (제목과 문의 내용)
-:::
+![문의 작성 화면](/images/teacher/teacher-14-inquiry-write.png)
 
 ### 답변 확인
 

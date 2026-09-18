@@ -21,9 +21,7 @@
 | 등록일 | 생성된 날짜 |
 | 관리 | **상세** |
 
-::: info 이미지 자리 · `admin/admin-11-lectures.png`
-강의 관리 목록 화면
-:::
+![강의 관리 목록 화면](/images/admin/admin-11-lectures.png)
 
 ## 강의 상세
 
@@ -34,9 +32,7 @@
 | **강사 정보** | 배정된 강사 |
 | **활동 내역** | 반별로 강사가 입력한 참여인원, 활동 사진, 결과보고서 |
 
-::: info 이미지 자리 · `admin/admin-12-lecture-detail.png`
-강의 상세 화면 (활동 내역 영역이 보이도록 촬영)
-:::
+![강의 상세 화면](/images/admin/admin-12-lecture-detail.png)
 
 ## 수업 후 확인하기 {#after-class}
 

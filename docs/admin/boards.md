@@ -33,9 +33,7 @@
 **숨김 여부**를 사용한 상태로 저장해 두었다가, 공개 시점에 해제하시면 됩니다.
 :::
 
-::: info 이미지 자리 · `admin/admin-13-notice.png`
-공지사항 작성 화면
-:::
+![공지사항 작성 화면](/images/admin/admin-13-notice.png)
 
 ## FAQ
 
@@ -59,9 +57,7 @@
 양쪽 모두에 해당하는 내용은 **공통**으로 지정해 주세요.
 :::
 
-::: info 이미지 자리 · `admin/admin-14-faq.png`
-FAQ 작성 화면 (오른쪽 FAQ 구분 설정이 보이도록 촬영)
-:::
+![FAQ 작성 화면](/images/admin/admin-14-faq.png)
 
 ## 문의관리
 
@@ -95,9 +91,7 @@ FAQ 작성 화면 (오른쪽 FAQ 구분 설정이 보이도록 촬영)
 
 이미 답변한 글은 **답변수정**으로 이동하여 내용을 변경한 뒤 **답변 수정**을 누릅니다.
 
-::: info 이미지 자리 · `admin/admin-15-inquiry-answer.png`
-문의 답변 화면 (위쪽 질문과 아래쪽 답변)
-:::
+![문의 답변 화면](/images/admin/admin-15-inquiry-answer.png)
 
 ## 신청 건에 대한 문의는 별도 화면입니다
 

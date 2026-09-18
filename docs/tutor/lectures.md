@@ -14,9 +14,7 @@
 배정된 강의가 날짜에 표시되므로 한 달 일정을 한 번에 확인할 수 있습니다.
 달력 위쪽의 화살표로 이전 달과 다음 달로 이동합니다.
 
-::: info 이미지 자리 · `tutor/tutor-07-schedule-calendar.png`
-대시보드의 월별 강의 일정 달력
-:::
+![대시보드의 월별 강의 일정 달력](/images/tutor/tutor-07-schedule-calendar.png)
 
 ## 강의 목록
 
@@ -46,9 +44,7 @@
 | **대표 선생님 연락처** | 수업 당일 연락할 담당 선생님 전화번호 |
 | 추가 문의 | 선생님이 남긴 요청사항 |
 
-::: info 이미지 자리 · `tutor/tutor-08-lecture-detail.png`
-강의 상세 화면 위쪽 (신청자 정보와 신청 정보)
-:::
+![강의 상세 화면 위쪽](/images/tutor/tutor-08-lecture-detail.png)
 
 ### 강사 정보
 
@@ -59,9 +55,7 @@
 
 강의 상세 중간의 **강사 준비물** 영역에서 수업 전에 필요한 서류를 처리합니다.
 
-::: info 이미지 자리 · `tutor/tutor-09-materials.png`
-강사 준비물 영역 전체 (양식 목록과 운영확인서 · 강사카드 목록)
-:::
+![강사 준비물 영역](/images/tutor/tutor-09-materials.png)
 
 ### 각종 양식 및 링크
 

@@ -2,9 +2,7 @@
 
 상단 메뉴 **프로그램 탐색**을 누르면 신청할 수 있는 수업이 모두 표시됩니다.
 
-::: info 이미지 자리 · `teacher/teacher-03-program-list.png`
-프로그램 목록 화면 (왼쪽 필터와 목록이 함께 보이도록 촬영)
-:::
+![프로그램 목록 화면](/images/teacher/teacher-03-program-list.png)
 
 ## 분류 선택
 
@@ -41,9 +39,7 @@
 
 목록에서 카드를 누르면 상세 화면으로 이동합니다.
 
-::: info 이미지 자리 · `teacher/teacher-04-program-detail.png`
-프로그램 상세 화면 (오른쪽 신청 버튼 영역이 보이도록 촬영)
-:::
+![프로그램 상세 화면](/images/teacher/teacher-04-program-detail.png)
 
 ### 확인할 수 있는 정보
 
@@ -88,9 +84,7 @@
 - 프로그램을 빼실 때는 **제거**를 누릅니다. 확인 창이 한 번 표시됩니다.
 - 수강바구니 안에서도 **프로그램 추가**로 더 담을 수 있습니다.
 
-::: info 이미지 자리 · `teacher/teacher-05-cart.png`
-수강바구니 화면 (선택 체크박스와 신청 버튼이 보이도록 촬영)
-:::
+![수강바구니 화면](/images/teacher/teacher-05-cart.png)
 
 ## 관심 프로그램
 

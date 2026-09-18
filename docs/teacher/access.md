@@ -11,9 +11,7 @@
 
 홈페이지 오른쪽 위의 **로그인**을 누른 뒤 **회원가입**을 선택합니다.
 
-::: info 이미지 자리 · `teacher/teacher-02-signup.png`
-회원가입 정보 입력 화면 전체
-:::
+![회원가입 정보 입력 화면](/images/teacher/teacher-02-signup.png)
 
 ### 1단계. 이용약관 동의
 

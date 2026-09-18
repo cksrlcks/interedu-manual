@@ -5,9 +5,7 @@
 접속 주소는 `https://interedu.ai.kr/tutor/sign-up` 입니다.
 강사 로그인 화면에서 **회원가입**을 눌러 이동하셔도 됩니다.
 
-::: info 이미지 자리 · `tutor/tutor-03-signup-steps.png`
-회원가입 화면 상단의 3단계 표시 (이용약관 · 기본 정보 · 강사 정보)
-:::
+![회원가입 3단계 표시](/images/tutor/tutor-03-signup-steps.png)
 
 ## 1단계. 이용약관 동의
 
@@ -34,9 +32,7 @@
 중복확인 후 아이디나 이메일을 수정하면 확인이 해제되므로 다시 눌러 주세요.
 :::
 
-::: info 이미지 자리 · `tutor/tutor-04-signup-basic.png`
-2단계 기본 정보 입력 화면
-:::
+![2단계 기본 정보 입력 화면](/images/tutor/tutor-04-signup-basic.png)
 
 ## 3단계. 강사 정보 입력
 
@@ -77,9 +73,7 @@
 | 주관 업체 · 경력 일자 · 업무 내용 | 직접 입력합니다. 필수 |
 | 정렬 순서 | **1 이상**의 숫자를 입력합니다 |
 
-::: info 이미지 자리 · `tutor/tutor-05-signup-tutor-info.png`
-3단계 강사 정보 입력 화면 (학력 · 경력 영역이 보이도록 촬영)
-:::
+![3단계 강사 정보 입력 화면](/images/tutor/tutor-05-signup-tutor-info.png)
 
 마지막으로 **가입하기**를 누르면 `강사 신청이 완료되었습니다. 승인 후 로그인 가능합니다.` 안내가 표시되고 로그인 화면으로 이동합니다.
 

@@ -12,9 +12,7 @@
 | **나의 문의** | 남긴 문의와 답변을 확인합니다 |
 | **계정 정보** | 정보를 확인하고 비밀번호를 변경합니다 |
 
-::: info 이미지 자리 · `teacher/teacher-08-mypage.png`
-마이페이지 수강 신청 내역 목록 화면
-:::
+![마이페이지 수강 신청 내역 목록 화면](/images/teacher/teacher-08-mypage.png)
 
 ## 신청 상세 화면
 
@@ -28,9 +26,7 @@
 | **결제 정보** | 견적서, 계약서, 거래명세서 등 서류 |
 | **1:1 대화** | 담당자와 주고받는 메시지 |
 
-::: info 이미지 자리 · `teacher/teacher-09-apply-detail-tabs.png`
-신청 상세 화면 (탭 네 개와 오른쪽 접수 상태가 함께 보이도록 촬영)
-:::
+![신청 상세 화면](/images/teacher/teacher-09-apply-detail-tabs.png)
 
 ## 접수 상태 확인하기
 
@@ -70,9 +66,7 @@
 인원 변동이나 희망 일정 변경 등을 남겨 주시면 기록이 함께 남아 확인이 정확합니다.
 :::
 
-::: info 이미지 자리 · `teacher/teacher-10-chat.png`
-1:1 대화 탭 (주고받은 메시지가 보이도록 촬영)
-:::
+![1:1 대화 탭](/images/teacher/teacher-10-chat.png)
 
 ## 견적서와 거래명세서 받기 {#documents}
 
@@ -92,9 +86,7 @@
 견적서는 담당자가 일정과 인원을 확정한 뒤 발행합니다. 필요하시면 **1:1 대화**로 요청해 주세요.
 :::
 
-::: info 이미지 자리 · `teacher/teacher-11-documents.png`
-결제 정보 탭의 문서함 (견적서와 거래명세서가 보이도록 촬영)
-:::
+![결제 정보 탭의 문서함](/images/teacher/teacher-11-documents.png)
 
 ## 배정된 강사 확인하기
 
@@ -121,9 +113,7 @@
 수업 당일 동선이나 준비물 확인은 표시된 연락처로 직접 문의하셔도 됩니다.
 :::
 
-::: info 이미지 자리 · `teacher/teacher-12-tutor-info.png`
-강의 정보 탭의 강사 정보 카드
-:::
+![강의 정보 탭의 강사 정보 카드](/images/teacher/teacher-12-tutor-info.png)
 
 ## 수업 결과물 확인하기 {#results}
 
@@ -142,9 +132,7 @@
 강사가 수업 후 자료를 정리하는 데 며칠이 소요될 수 있습니다. 오래 지연되는 경우 **1:1 대화**로 문의해 주세요.
 :::
 
-::: info 이미지 자리 · `teacher/teacher-13-results.png`
-학급별 강의 내역 (활동 사진과 결과보고서가 보이도록 촬영)
-:::
+![학급별 강의 내역](/images/teacher/teacher-13-results.png)
 
 ## 관심 프로그램
 

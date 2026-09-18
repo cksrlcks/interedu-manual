@@ -22,9 +22,7 @@
 | 등록일 | 요청이 접수된 날짜 |
 | 관리 | **상세** 버튼 |
 
-::: info 이미지 자리 · `admin/admin-03-tutor-requests.png`
-강사신청 관리 목록 화면
-:::
+![강사신청 관리 목록 화면](/images/admin/admin-03-tutor-requests.png)
 
 ## 요청 내용 확인
 
@@ -41,9 +39,7 @@
 승인하면 이 내용이 실제 강사 정보로 반영됩니다.
 :::
 
-::: info 이미지 자리 · `admin/admin-04-tutor-request-detail.png`
-강사신청 상세 화면 (왼쪽 신청 내용과 오른쪽 처리 영역)
-:::
+![강사신청 상세 화면](/images/admin/admin-04-tutor-request-detail.png)
 
 ## 승인 처리
 

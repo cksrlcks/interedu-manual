@@ -1,0 +1,14 @@
+{
+  "name": "interedu-manual",
+  "version": "1.0.0",
+  "private": true,
+  "description": "인터에듀 사용 설명서 (강사 / 선생님 / 관리자)",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

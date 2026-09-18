@@ -1,0 +1,279 @@
+/* ─────────────────────────────────────────────────────────────
+   인터에듀 사용 설명서 테마
+   - 포인트(브랜드) 색은 검정 : 라이트는 블랙, 다크는 화이트
+   - 본문 폰트는 Wanted Sans (CDN, config.mts 의 head 에서 로드)
+   - 전체 진행 흐름도만 역할 구분을 위해 색을 사용합니다
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --vp-font-family-base:
+    "Wanted Sans Variable", "Wanted Sans", Pretendard, -apple-system,
+    BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+
+  /* 포인트 색 = 검정 */
+  --vp-c-brand-1: #000000;
+  --vp-c-brand-2: #333333;
+  --vp-c-brand-3: #111111;
+  --vp-c-brand-soft: rgba(0, 0, 0, 0.08);
+
+  /* 홈 히어로 — 그라데이션 없이 검정 */
+  --vp-home-hero-name-color: var(--vp-c-text-1);
+  --vp-home-hero-name-background: none;
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+
+  letter-spacing: -0.02em;
+}
+
+.dark {
+  --vp-c-brand-1: #ffffff;
+  --vp-c-brand-2: #d4d4d4;
+  --vp-c-brand-3: #e5e5e5;
+  --vp-c-brand-soft: rgba(255, 255, 255, 0.12);
+}
+
+/* 본문 가독성 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  letter-spacing: -0.03em;
+}
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.78;
+  word-break: keep-all;
+}
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  white-space: nowrap;
+}
+
+/* ─── 안내 상자(콜아웃) ───────────────────────────────────────
+   포인트 색은 검정이지만, 읽는 사람이 성격을 바로 구분할 수 있도록
+   도움말(tip) 은 파란색 계열을 씁니다. 파랑 값은 흐름도의 '선생님'
+   색과 같은 톤입니다.
+     tip     파랑   — 알아 두면 편한 내용
+     info    회색   — 이미지 자리 등 보조 정보
+     warning 노랑   — 주의해서 확인할 내용
+     danger  빨강   — 되돌릴 수 없거나 막히는 내용
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --vp-custom-block-tip-bg: rgba(46, 144, 250, 0.08);
+  --vp-custom-block-tip-border: rgba(46, 144, 250, 0.4);
+  --vp-custom-block-tip-text: #14509e;
+  --vp-custom-block-tip-code-bg: rgba(46, 144, 250, 0.16);
+  --vp-custom-block-warning-border: rgba(217, 160, 10, 0.5);
+  --vp-custom-block-danger-border: rgba(226, 55, 84, 0.45);
+}
+
+.dark {
+  --vp-custom-block-tip-bg: rgba(90, 169, 255, 0.1);
+  --vp-custom-block-tip-border: rgba(90, 169, 255, 0.38);
+  --vp-custom-block-tip-text: #d7e8ff;
+  --vp-custom-block-tip-code-bg: rgba(90, 169, 255, 0.2);
+  --vp-custom-block-warning-border: rgba(234, 179, 8, 0.45);
+  --vp-custom-block-danger-border: rgba(244, 63, 94, 0.45);
+}
+
+.vp-doc .custom-block.tip {
+  border-left-width: 4px;
+}
+.vp-doc .custom-block.tip .custom-block-title {
+  color: var(--vp-custom-block-tip-text);
+}
+.vp-doc .custom-block.tip a {
+  color: var(--vp-custom-block-tip-text);
+  text-decoration-color: currentColor;
+}
+
+/* 이미지 자리(info) 는 눈에 덜 띄게 */
+.vp-doc .custom-block.info {
+  border-left-width: 4px;
+  border-left-color: var(--vp-c-divider);
+}
+
+/* 주의 · 경고는 왼쪽 선을 굵게 해서 한눈에 들어오도록 */
+.vp-doc .custom-block.warning,
+.vp-doc .custom-block.danger {
+  border-left-width: 4px;
+}
+
+/* ─── 상단 메뉴 : 현재 보고 있는 섹션 표시 ────────────────────
+   포인트 색이 검정이라 색만으로는 구분이 어려워, 굵기와 밑줄로 표시합니다.
+   ───────────────────────────────────────────────────────────── */
+.VPNavBarMenuLink {
+  position: relative;
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.VPNavBarMenuLink:hover {
+  color: var(--vp-c-text-1);
+}
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+.VPNavBarMenuLink.active::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+  left: 12px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: var(--vp-c-text-1);
+}
+
+/* 모바일 메뉴에서도 동일하게 표시 */
+.VPNavScreenMenuLink.active,
+.VPNavScreenMenuGroupSection .active {
+  color: var(--vp-c-text-1);
+  font-weight: 700;
+}
+
+/* 왼쪽 사이드바 : 현재 문서 표시 */
+.VPSidebarItem.is-active > .item .link .text {
+  font-weight: 700;
+}
+
+/* ─── 자주 묻는 질문 : 질문과 답변을 카드로 분리 ────────────── */
+.vp-doc details.custom-block {
+  margin: 10px 0;
+  padding: 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  background-color: var(--vp-c-bg);
+}
+.vp-doc details.custom-block > summary {
+  margin: 0;
+  padding: 14px 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+}
+.vp-doc details.custom-block[open] > summary {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.vp-doc details.custom-block > summary + * {
+  margin-top: 14px;
+}
+.vp-doc details.custom-block > *:not(summary) {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.vp-doc details.custom-block > *:last-child {
+  padding-bottom: 16px;
+}
+
+/* ─── 전체 진행 흐름도 ────────────────────────────────────────
+   역할별 색 구분 : 선생님 / 관리자 / 강사 / 시스템 자동 처리
+   ───────────────────────────────────────────────────────────── */
+.flow {
+  --flow-line: #d4d4d8;
+  --flow-label: #71717a;
+  --flow-sub: #71717a;
+
+  --flow-teacher-bg: #e8f2ff;
+  --flow-teacher-line: #2e90fa;
+  --flow-teacher-text: #14509e;
+
+  --flow-admin-bg: #f6ecff;
+  --flow-admin-line: #9a34ff;
+  --flow-admin-text: #531991;
+
+  --flow-tutor-bg: #e6f7ef;
+  --flow-tutor-line: #12b76a;
+  --flow-tutor-text: #05603a;
+
+  --flow-auto-bg: #f4f4f5;
+  --flow-auto-line: #a1a1aa;
+  --flow-auto-text: #52525b;
+
+  margin: 24px 0 8px;
+}
+
+.dark .flow {
+  --flow-line: #4a4a50;
+  --flow-label: #a1a1aa;
+  --flow-sub: #a1a1aa;
+
+  --flow-teacher-bg: #13263f;
+  --flow-teacher-line: #5aa9ff;
+  --flow-teacher-text: #cfe4ff;
+
+  --flow-admin-bg: #2b1745;
+  --flow-admin-line: #b06bff;
+  --flow-admin-text: #e2ccff;
+
+  --flow-tutor-bg: #112e22;
+  --flow-tutor-line: #3ecf8e;
+  --flow-tutor-text: #c5f2dd;
+
+  --flow-auto-bg: #27272a;
+  --flow-auto-line: #8a8a93;
+  --flow-auto-text: #d4d4d8;
+}
+
+.flow__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+.flow__legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.flow__legend span::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  border: 1.5px solid currentColor;
+}
+.flow__legend .is-teacher::before {
+  background: var(--flow-teacher-bg);
+  color: var(--flow-teacher-line);
+}
+.flow__legend .is-admin::before {
+  background: var(--flow-admin-bg);
+  color: var(--flow-admin-line);
+}
+.flow__legend .is-tutor::before {
+  background: var(--flow-tutor-bg);
+  color: var(--flow-tutor-line);
+}
+.flow__legend .is-auto::before {
+  background: var(--flow-auto-bg);
+  color: var(--flow-auto-line);
+}
+
+.flow__scroll {
+  overflow-x: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  background: var(--vp-c-bg);
+  padding: 8px 4px;
+}
+.flow__scroll svg {
+  display: block;
+  min-width: 560px;
+  width: 100%;
+  height: auto;
+}
+
+.flow__hint {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}

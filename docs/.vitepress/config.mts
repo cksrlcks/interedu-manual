@@ -77,7 +77,7 @@ export default defineConfig({
             { text: "4. 수강 신청 관리와 강사 배정", link: "/admin/applies" },
             { text: "5. 강의 관리", link: "/admin/lectures" },
             { text: "6. 공지사항 · FAQ · 문의관리", link: "/admin/boards" },
-            { text: "7. 회원 · 시스템 설정", link: "/admin/settings" },
+            { text: "7. 계정 관리", link: "/admin/settings" },
           ],
         },
       ],

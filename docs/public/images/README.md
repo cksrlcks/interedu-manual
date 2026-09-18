@@ -78,5 +78,4 @@ images/
 | `admin/admin-13-notice.png` | 공지사항 작성 | 공지사항 · FAQ · 문의관리 |
 | `admin/admin-14-faq.png` | FAQ 작성 | 공지사항 · FAQ · 문의관리 |
 | `admin/admin-15-inquiry-answer.png` | 문의 답변 화면 | 공지사항 · FAQ · 문의관리 |
-| `admin/admin-16-board-settings.png` | 게시판 관리 설정 | 회원 · 시스템 설정 |
 | `common/common-01-flow.png` | (선택) 전체 흐름 도식 | 전체 진행 흐름도 |

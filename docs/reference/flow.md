@@ -106,15 +106,17 @@
     <text x="473.0" y="687" text-anchor="middle" font-size="9" fill="var(--flow-sub)">자동 생성 후 저장</text>
     <circle cx="82" cy="752" r="4" fill="var(--flow-line)"/>
     <text x="62" y="756" text-anchor="end" font-size="11" font-weight="700" fill="var(--flow-label)">마무리</text>
-    <rect x="127.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-teacher-bg)" stroke="var(--flow-teacher-line)" stroke-width="1.3"/>
-    <text x="203.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-teacher-text)">수업 결과물 확인</text>
-    <text x="203.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">활동 사진 · 보고서</text>
-    <rect x="291.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-teacher-bg)" stroke="var(--flow-teacher-line)" stroke-width="1.3"/>
-    <text x="367.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-teacher-text)">거래명세서 확인</text>
-    <text x="367.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">결제 정보 탭</text>
-    <rect x="455.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-admin-bg)" stroke="var(--flow-admin-line)" stroke-width="1.3"/>
-    <text x="531.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-admin-text)">결과물 점검</text>
-    <text x="531.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">강의 관리</text>
+    <rect x="127.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-admin-bg)" stroke="var(--flow-admin-line)" stroke-width="1.3"/>
+    <text x="203.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-admin-text)">결과물 점검</text>
+    <text x="203.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">참여인원 · 사진 확인</text>
+    <line x1="282.0" y1="752" x2="288.0" y2="752" stroke="var(--flow-line)" stroke-width="1.8" marker-end="url(#fa)"/>
+    <rect x="291.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-admin-bg)" stroke="var(--flow-admin-line)" stroke-width="1.3"/>
+    <text x="367.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-admin-text)">거래명세서 생성</text>
+    <text x="367.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">참여인원 기준 정산</text>
+    <line x1="446.0" y1="752" x2="452.0" y2="752" stroke="var(--flow-line)" stroke-width="1.8" marker-end="url(#fa)"/>
+    <rect x="455.0" y="730.0" width="152" height="44" rx="8" fill="var(--flow-teacher-bg)" stroke="var(--flow-teacher-line)" stroke-width="1.3"/>
+    <text x="531.0" y="749" text-anchor="middle" font-size="11.5" font-weight="700" fill="var(--flow-teacher-text)">결과물 · 명세서 확인</text>
+    <text x="531.0" y="765" text-anchor="middle" font-size="9" fill="var(--flow-sub)">마이페이지</text>
   </svg>
   </div>
   <p class="flow__hint">화면이 좁은 경우 그림을 좌우로 밀어서 보실 수 있습니다.</p>
@@ -147,6 +149,8 @@
 | 3 | 견적서를 생성합니다 |
 | 4 | **신청 확정하기**를 누릅니다 |
 
+같은 영역의 **4. 거래명세서**는 수업이 끝난 뒤에 진행합니다.
+
 자세한 내용은 [수강 신청 관리와 강사 배정](/admin/applies)에 있습니다.
 
 확정 시점에 진행 상태가 **수강 확정**으로 바뀌고, 강의가 자동으로 생성되며, 신청자와 배정된 강사에게 안내 메일이 발송됩니다.
@@ -172,13 +176,16 @@
 
 이 시점의 강의 상태는 **강의종료** 입니다.
 
-### 6. 마무리 · 선생님과 관리자
+### 6. 마무리 · 관리자와 선생님
 
 | 담당 | 하는 일 | 설명서 |
 | --- | --- | --- |
+| 관리자 | 참여인원과 결과물 등록 여부 확인 | [강의 관리](/admin/lectures#after-class) |
+| 관리자 | 실제 참여인원 기준으로 거래명세서 생성 | [거래명세서](/admin/applies#trade-statement) |
 | 선생님 | 수업 사진과 결과보고서 확인 | [마이페이지에서 관리하기](/teacher/mypage#results) |
 | 선생님 | 거래명세서 내려받기 | [마이페이지에서 관리하기](/teacher/mypage#documents) |
-| 관리자 | 결과물 등록 여부 확인 | [강의 관리](/admin/lectures#after-class) |
+
+거래명세서를 저장하면 파일이 자동으로 만들어져 선생님의 **결제 정보** 탭에 바로 표시됩니다.
 
 ## 자주 확인이 필요한 경우
 
@@ -190,3 +197,6 @@
 | 견적서가 보이지 않습니다 | 아직 생성되지 않았습니다 | 관리자가 **견적서 생성**을 실행합니다 |
 | 강사카드 다운로드 버튼이 없습니다 | 아직 생성되지 않았습니다 | 강사가 **강사카드 생성**을 누른 뒤 화면을 새로고침합니다 |
 | 결과보고서가 생성되지 않습니다 | 참여인원 또는 활동 사진이 비어 있습니다 | 두 항목을 모두 입력한 뒤 다시 시도합니다 |
+| **거래명세서 생성** 버튼이 눌리지 않습니다 | 신청이 확정되지 않아 강의가 없습니다 | 관리자가 **신청 확정하기**를 먼저 실행합니다 |
+| 거래명세서 금액이 예정인원으로 계산됩니다 | 강사가 참여인원을 입력하지 않았습니다 | 강사가 입력한 뒤 거래명세서를 다시 생성합니다 |
+| 선생님 화면에 거래명세서가 없습니다 | 아직 생성되지 않았습니다 | 관리자가 신청 상세에서 **거래명세서 생성**을 실행합니다 |

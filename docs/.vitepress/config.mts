@@ -85,7 +85,6 @@ export default defineConfig({
         {
           text: "참고자료",
           items: [
-            { text: "입력 규칙 한눈에 보기", link: "/reference/validation" },
             { text: "상태값 한눈에 보기", link: "/reference/statuses" },
             { text: "자동으로 나가는 메일", link: "/reference/emails" },
             { text: "전체 진행 흐름도", link: "/reference/flow" },
